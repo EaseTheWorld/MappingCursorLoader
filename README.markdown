@@ -68,4 +68,4 @@ Source
 ------
 https://github.com/EaseTheWorld/MappingCursorLoader
 
-Made by **EaseTheWorld
+Made by **EaseTheWorld**
