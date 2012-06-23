@@ -50,7 +50,7 @@ Feature 2 : Group
   It returns `MappingCursorLoader.ROW_TYPE_CHILD/ROW_TYPE_GROUP_EXPANDED/ROW_TYPE_GROUP_COLLAPSED`.
   If it is group type, you can get group specific data in the cursor column like
   `cursor.getString(MappingCursorLoader.GROUP_CURSOR_COLUMN_KEY)` : group identifier, 
-  `cursor.getString(MappingCursorLoader.GROUP_CURSOR_COLUMN_SIZE)` : group size
+  `cursor.getInt(MappingCursorLoader.GROUP_CURSOR_COLUMN_SIZE)` : group size
 
 - To use SectionIndexer for groups, `MappingCursorLoader.getGroupKeys()` and `MappingCursorLoader.getGroupHeaderPosition()` are also provided.
 
