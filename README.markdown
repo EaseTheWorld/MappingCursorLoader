@@ -45,6 +45,14 @@ Feature 2 : Group
 - Like `ExpandableListView`, you can expand and collapse groups by
   `MappingCursorLoader.expandGroup()/collapseGroup()/expandAllGroup()`.
   (I think this is specially useful because `ExpandableListView` cannot be used with `CursorLoader`.) 
+  
+- To see the cursor is group or original cursor data, `MappingCursorLoader.getRowType()` is provided.
+  It returns `MappingCursorLoader.ROW_TYPE_CHILD/ROW_TYPE_GROUP_EXPANDED/ROW_TYPE_GROUP_COLLAPSED`.
+  If it is group type, you can get group specific data in the cursor column like
+  `cursor.getString(MappingCursorLoader.GROUP_CURSOR_COLUMN_KEY)` : group identifier, 
+  `cursor.getString(MappingCursorLoader.GROUP_CURSOR_COLUMN_SIZE)` : group size
+
+- To use SectionIndexer for groups, `MappingCursorLoader.getGroupKeys()` and `MappingCursorLoader.getGroupHeaderPosition()` are also provided.
 
 Examples
 --------
