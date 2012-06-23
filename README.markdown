@@ -66,6 +66,6 @@ Release Notes
 
 Source
 ------
-<a href="https://github.com/EaseTheWorld/MappingCursorLoader">https://github.com/EaseTheWorld/MappingCursorLoader</a>
+https://github.com/EaseTheWorld/MappingCursorLoader
 
-Made by EaseTheWorld
+Made by **EaseTheWorld
