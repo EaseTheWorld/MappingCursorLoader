@@ -1,5 +1,5 @@
-EaseTheWorld's MappingCursorLoader
-==================================
+Android MappingCursorLoader
+===========================
 
 You can get various cursors which have different position mapping from original cursor
 with `MappingCursorLoader` and `MappingCursorLoader.Layer`.
