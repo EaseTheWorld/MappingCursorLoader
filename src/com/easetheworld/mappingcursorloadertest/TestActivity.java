@@ -117,6 +117,7 @@ public class TestActivity extends ListActivity {
 
         Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
         mainIntent.addCategory(CATEGORY_SAMPLE_CODE);
+        mainIntent.setPackage(context.getPackageName()); // only this package
 
         PackageManager pm = context.getPackageManager();
         List<ResolveInfo> list = pm.queryIntentActivities(mainIntent, 0);
